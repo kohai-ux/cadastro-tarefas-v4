@@ -1,7 +1,8 @@
 # Projeto Cadastro de Tarefas
 
 Aplicação web simples para cadastro de tarefas com backend em Node.js e persistência de dados em MySQL. 
-Realizado com tema de Neon Genesis Evangelion, anime dos anos 90!
+Realizado com tema de Neon Genesis Evangelion, anime dos anos 90! 
+Tudo isso foi feito nas aulas do SESI Campo Largo com o auxílio do Professor Marcelo.
 
 ## 🚀 Funcionalidades
 
@@ -34,8 +35,7 @@ node backend/server.js
 
 ## 📚 Aprendizados
 
-Este projeto demonstrou como migrar um backend de SQLite para MySQL utilizando Sequelize.
-Também aprendemos como utilizar o Laragon em nossas máquinas e praticamos o uso do GitHub
+Neste projeto, aprendemos como utilizar o método Sequelize com o Laragon funcionando de SGBD, também realizamos mudanças visuais no código utilizando os conhecimentos previamente adquiridos no CSS. 
 
 ## 📄 Licença
 
