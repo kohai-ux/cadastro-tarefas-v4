@@ -20,7 +20,7 @@ Realizado com tema de Neon Genesis Evangelion, anime dos anos 90!
 
 ## 📸 Captura de tela
 
-![tela](imgs/screenshot.png)
+![tela](.imgs/screenshot.png)
 
 ## 🧑‍💻 Como usar
 
