@@ -20,7 +20,8 @@ Realizado com tema de Neon Genesis Evangelion, anime dos anos 90!
 
 ## 📸 Captura de tela
 
-![tela](.imgs/screenshot.png)
+![image](https://github.com/user-attachments/assets/5704c343-7842-48f6-ab11-73be56d67ded)
+
 
 ## 🧑‍💻 Como usar
 
