@@ -27,8 +27,8 @@ Tudo isso foi feito nas aulas do SESI Campo Largo com o auxílio do Professor Ma
 ## 🧑‍💻 Como usar
 
 ```bash
-git clone https://github.com/seuusuario/seurepositorio.git
-cd seurepositorio
+git clone https://github.com/kohai-ux/cadastro-tarefas-v4.git
+cd cadastro-tarefas-v4
 npm install
 node backend/server.js
 ```
