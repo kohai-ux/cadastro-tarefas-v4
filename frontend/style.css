@@ -1,8 +1,10 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #eef2f7;
-    background-image: url(image.webp);
+    background-image: url(imgs/evangelion--wallpaper.jpg);
+    background-size: cover ;
   }
+  
   .container {
     max-width: 600px;
     margin: 40px auto;
@@ -29,7 +31,7 @@ body {
   }
   
   button {
-    background-color: #a706cf;
+    background-color: #964649;
     color: white;
     border: none;
     cursor: pointer;
@@ -48,7 +50,10 @@ body {
   }
   
   th {
-    background-color: #a706cf;
+    background-color: #964649;
     color: white;
   }
   
+  button:hover{
+    background-color: #2d3741
+  }
