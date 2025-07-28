@@ -1,8 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #eef2f7;
+    background-image: url(image.webp);
   }
-  
   .container {
     max-width: 600px;
     margin: 40px auto;
@@ -29,7 +29,7 @@ body {
   }
   
   button {
-    background-color: #2563eb;
+    background-color: #a706cf;
     color: white;
     border: none;
     cursor: pointer;
@@ -48,7 +48,7 @@ body {
   }
   
   th {
-    background-color: #2563eb;
+    background-color: #a706cf;
     color: white;
   }
   
