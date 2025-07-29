@@ -26,7 +26,8 @@ app.use(cors());
 app.use(express.json());
 
 // Rotas
-//app.use("/tarefas", tarefaRoutes);
+app.use("/auth", authRoutes)
+app.use("/tarefas", tarefaRoutes);
 
 //CORREÇÃO
 app.use("/",tarefaRoutes);
