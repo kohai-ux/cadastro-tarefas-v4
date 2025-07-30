@@ -1,4 +1,4 @@
-const bcrypt = requie("bcrypt");
+const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const Usuario = require ("../models/usuario");
 require("dotenv").config();
@@ -16,7 +16,7 @@ exports.register = async(req,res)=>{
         }
 
         const senhaHash = await bcrypt.hash(senha, 10);
-        const novoUsuario = await Usuario.create({nome, email, senha: senha.senhaHash});
+        const novoUsuario = await Usuario.create({nome, email, senha: senhaHash});
         res.status(201).json({mensagem: "Usuário registrado com sucesso."});
     } catch (erro){
         res.status(500).json({mensagem: "Erro no registro", erro: erro.message});
@@ -45,7 +45,7 @@ exports.login = async (req,res)=>{
 
         res.status(200).json({mensagem: "Login bem sucedido. ", token});
 
-    }catch(erro){
+    } catch(erro){
         res.status(500).json({mensagem:"Erro no login.",erro: erro.messagem})
     }
 }

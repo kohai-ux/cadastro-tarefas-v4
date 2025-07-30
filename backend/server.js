@@ -18,9 +18,9 @@ const express = require("express");
 const cors = require("cors");
 const tarefaRoutes = require("./routes/tarefaRoutes");
 const sequelize = require("./database/db");
-
+const Tarefa = require("./models/Tarefa");
 const app = express();
-
+const authRoutes = require("./routes/authRoutes");
 // Middleware
 app.use(cors());
 app.use(express.json());
